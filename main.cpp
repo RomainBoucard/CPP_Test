@@ -8,7 +8,10 @@ int main() {
    // printf() displays the string inside quotation
    std::cout << "Hello world !\n" << std::endl;
 
-    Point<int> truc(5, 8);
+   int a = 3;
+   int b = 5;
+
+    Point<int> truc(a,b);
    //Point<int> a(3, 5);
    //cout << a;
    return 0;
